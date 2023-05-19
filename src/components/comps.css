@@ -1,0 +1,171 @@
+.fayda {
+    height: 80px;
+    padding: 30px 150px 0 150px ;
+    margin: 20px 0;
+   
+  
+    /* background-color: rgba(255, 0, 0, 0.266); */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap');
+
+.fayda h1 {
+    text-align: center;
+    font-size: 1.2rem;
+    
+ 
+    color: gray;
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+.clone_world_view {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.clone_world_about,
+.hey {
+    /* background-color: green; */
+    background-color: #F8F1F1;
+
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+
+
+}
+
+.clone_world_about h1 {
+    color: rgb(0, 0, 0);
+
+    font-size: 5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.clone_world_about h3 {
+    color: rgba(0, 0, 0, 0.565);
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.2rem;
+}
+
+
+.three_things_about_clone_world {
+ /* hahahhah */
+    
+}
+.grid {
+    /* display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+
+    place-items: center; */
+
+    /* background-color: rgba(0, 255, 110, 0.073); */
+    padding: 20px 0;
+
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+  /* grid-template-rows: repeat(2, 200px); */
+
+    justify-content: center; 
+     justify-items: center; 
+  
+
+     gap: 1rem;
+
+     padding: 30px 0 55px 0;
+    
+  }
+  
+  .grid > div {
+    height: 150px;
+    width: 250px;
+    /* background: red; */
+
+ 
+  }
+
+.box_thing_one,
+.box_thing_two,
+.box_thing_three {
+    /* width: 280px; */
+    /* height: 150px; */
+
+    /* border-bottom: .1px dotted black;
+    border-left: .1px dotted black; */
+    /* padding:  20 90px; */
+    padding: 7px;
+ 
+
+    /* background-color: #f8f8f83a; */
+    background-color: rgba(49, 223, 49, 0.139);
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.box_thing_one img,
+.box_thing_two img,
+.box_thing_three img {
+    height: 30px;
+    width: 30px;
+
+
+}
+
+.makeitcool {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 20px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.365)
+
+}
+ 
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@800&display=swap');
+ 
+
+.makeitcool h4 {
+    font-size: 1.1rem;
+    font-weight: 900;
+    line-height: 1.3;
+    /* font-family: 'Karla', sans-serif; */
+    /* color: #7f8286; */
+    color: rgba(255, 255, 255, 0.823);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+
+.box_thing_one p,
+.box_thing_two p,
+.box_thing_three p {
+    /* font-family: 'Titillium Web', sans-serif; */
+    font-family: 'Quicksand', sans-serif;
+    color: #545353;
+    font-size: .8rem;
+}
+
+.box_thing_one {}
+
+
+.box_thing_two {}
+
+
+.box_thing_three {}
+
+h4 p .tbout_logo {}
+
+

@@ -1,0 +1,64 @@
+.you-will-learn-solve-from-cw{
+    height: 90vh;
+   
+ 
+    /* background-color: rgb(100, 74, 74); */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.firstPart , .secondPart , .thirdPart{
+    width: 400px;
+    height: 550px;
+    /* background: black; */
+}
+
+.firstPart , .thirdPart {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+     
+}
+.box-up {
+    width: 250px;
+    height: 250px;
+    background-color: #ECF2FF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-down{
+    width: 250px;
+    height: 250px;
+    background-color: #ECF2FF;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondPart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-center{
+    width: 300px;
+    height: 300px;
+    background-color: #ECF2FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

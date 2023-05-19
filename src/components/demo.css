@@ -1,0 +1,87 @@
+.demo_project{
+    background-color: rgba(201, 187, 187, 0.534);
+    width: 100%;
+    height: 80vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     
+     
+}
+
+.demo_project_head{
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 0 10px 0 ;
+
+}
+
+.demo_project_para{
+    font-size: .8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 0 20px 0;
+    color: rgba(0, 0, 0, 0.373);
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.box{
+    width: 350px;
+    height: 230px;
+    background-color: rgba(94, 115, 117, 0.504);
+    border-radius: 10px 10px 0 0 ;
+}
+
+.box h4{
+    text-align: center;
+    padding: 5px;
+    font-size: 1.1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+
+.box img {
+    width: 100%;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.box-one{
+    background-color: #C9A7EB;
+}
+
+.box-two{
+    background-color: #DEDEA7;
+}
+
+.box-three {
+    background-color: #B8E7E1;
+}
+
+.button{
+    background-color: #081f2d; 
+    border-radius: 29px; 
+    border: 1px solid #081F2D; 
+    color: white; 
+    font-size: 15px; 
+   padding: 10px 45px; 
+    cursor: pointer; 
+    transition: 0.3s; 
+    margin: 40px 0 ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+    }
+    
+    .button:hover{ 
+    background-color: white; 
+    color: #081F2D; 
+    border-color: #081F2D; 
+    transition: 0.3s; 
+   }

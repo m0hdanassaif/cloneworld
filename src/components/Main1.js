@@ -1,4 +1,5 @@
 import React from 'react'
+import MainPic from '../assets/main-pic.png'
 
 
 
@@ -7,23 +8,31 @@ import './comps.css'
 
 const Main1 = () => {
   return (<>
-    
 
-     {/* About start */}
+
+    {/* About start */}
+    <div className='clone_world_main'>
 
       <div className='clone_world_about'>
         <h1>Clone World</h1>
         <h3>It's Clone World who loves duplication with own pure codes.</h3>
-      </div>
+       </div>
 
-      <div className='fayda'>
+     
+          <img className='image' src={MainPic} alt='no-user' />
+     
+
+  
+    </div>
+
+    <div className='fayda'>
      <h1><span className='color_fayda'>CW,</span> the ultimate Clone Website, grants you access to an unparalleled collection of code clones from various websites.</h1> 
       </div>
 
-     {/* About end   */}
-    
- 
-    </>
+    {/* About end   */}
+
+
+  </>
   )
 }
 
